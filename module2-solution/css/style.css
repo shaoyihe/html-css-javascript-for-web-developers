@@ -17,7 +17,7 @@ div {
     background-color: #819198;
     position: relative;
     border: 1px solid black;
-    padding: 22px 5px 5px;
+    padding: 34px 5px 5px;
     font-size: 125%;
 }
 
@@ -49,10 +49,11 @@ div {
 
 .title {
     position: absolute;
-    height: 20px;
+    height: 32px;
     top: 0px;
     right: 0px;
     border: 1px solid black;
+    padding: 4px;
 }
 
 .red {
