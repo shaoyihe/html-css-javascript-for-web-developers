@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.head {
+    text-align: center;
+    font-size: 175%;
+}
+
+div {
+    margin: 0px;
+}
+
+.content {
+    margin: 10px;
+    background-color: #819198;
+    position: relative;
+    border: 1px solid black;
+    padding: 22px 5px 5px;
+    font-size: 125%;
+}
+
+.col-md-6, .col-md-12, .col-lg-4 {
+    float: left;
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.3%;
+    }
+}
+
+.title {
+    position: absolute;
+    height: 20px;
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.silver {
+    background-color: silver;
+}
