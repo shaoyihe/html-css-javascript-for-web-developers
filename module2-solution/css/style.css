@@ -19,6 +19,8 @@ div {
     border: 1px solid black;
     padding: 34px 5px 5px;
     font-size: 125%;
+    height: 400px;
+    overflow: auto;
 }
 
 .col-md-6, .col-md-12, .col-lg-4 {
